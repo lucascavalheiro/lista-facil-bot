@@ -1,6 +1,7 @@
+var bot = require('./lib/bot/main.js');
 
 function init() {
-  console.log('Hello world');
+  bot.initBot();
 }
 
 init();
