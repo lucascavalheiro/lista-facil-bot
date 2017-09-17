@@ -9,7 +9,8 @@
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "node-telegram-bot-api": "^0.28.0"
   },
   "devDependencies": {
     "mocha": "^3.5.3"
@@ -23,10 +24,10 @@
   },
   "keywords": [
     "telegram",
-    "bot;",
-    "telegram;",
-    "bot;",
-    "listafacil;"
+    "bot",
+    "telegram",
+    "bot",
+    "listafacil"
   ],
   "author": "Lucas Cavalheiro",
   "license": "ISC",
