@@ -1,0 +1,37 @@
+{
+  "name": "lista-facil-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for ListaFacil app",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascavalheiro/lista-facil-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot;",
+    "telegram;",
+    "bot;",
+    "listafacil;"
+  ],
+  "author": "Lucas Cavalheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascavalheiro/lista-facil-bot/issues"
+  },
+  "homepage": "https://github.com/lucascavalheiro/lista-facil-bot#readme"
+}
