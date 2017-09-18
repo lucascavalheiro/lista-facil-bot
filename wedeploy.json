@@ -1,0 +1,7 @@
+{
+  "id": "bot",
+  "env": {
+    "HOST": "bot-listafacilbot.wedeploy.io",
+    "PORT": "443"
+  }
+}
