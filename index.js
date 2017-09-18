@@ -1,3 +1,8 @@
+var express = require('express');
+var morgan = require('morgan');
+var path = require('path');
+var app = express();
+
 var bot = require('./lib/bot/main.js');
 
 function init() {
@@ -9,3 +14,9 @@ function init() {
 }
 
 init();
+
+app.use(morgan('short'));
+
+app.get('/', function (req, res) {
+	res.send('ok');
+});

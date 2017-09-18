@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "chai": "^4.1.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
     "telegram-api": "^0.9.0"
   },
   "devDependencies": {
