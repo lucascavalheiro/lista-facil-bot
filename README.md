@@ -3,6 +3,15 @@
 
 ## Run server
 `$node index.js`
+or
+`$npm start`
+
+## Deploy
+Bot: root/
+  `we deploy -p listafacil`
+
+Data: cd root/data/
+  `we deploy -p listafacil`
 
 ## Bot API
 Telegram Bot API https://github.com/mdibaiee/node-telegram-api
