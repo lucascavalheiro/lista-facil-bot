@@ -1,0 +1,20 @@
+[
+  {
+    "description": "Create a new list",
+    "path": "/lists",
+    "method": "POST",
+    "data": true
+  },
+  {
+    "description": "Create a new list",
+    "path": "/lists",
+    "method": "GET",
+    "data": true
+  },
+  {
+    "description": "Create a new list",
+    "path": "/lists",
+    "method": "DELETE",
+    "data": true
+  }
+]

@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
@@ -21,6 +22,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
-app.listen(80, function () {
-  console.log('Listening on port 80');
-});
+if (process.env.IS_LOCAL === false) {
+  app.listen(80, function () {
+    console.log('Listening on port 80');
+  });
+}
