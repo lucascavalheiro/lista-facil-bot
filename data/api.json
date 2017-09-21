@@ -6,15 +6,21 @@
     "data": true
   },
   {
-    "description": "Create a new list",
+    "description": "Get items from the list",
     "path": "/lists",
     "method": "GET",
     "data": true
   },
   {
-    "description": "Create a new list",
+    "description": "Remove all items",
     "path": "/lists",
     "method": "DELETE",
+    "data": true
+  },
+  {
+    "description": "Update items",
+    "path": "/lists",
+    "method": "UPDATE",
     "data": true
   }
 ]
